@@ -1,0 +1,72 @@
+.okreg
+{
+    stroke-width:3;
+    stroke-linejoin:round;
+    stroke: #000000;
+    stop-color:#000000;
+}
+.okreg:hover
+{
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+    filter: drop-shadow(15px 15px 15px #000000);
+}
+.okreg.bright30:hover {
+    -webkit-filter: brightness(125%) drop-shadow(15px 15px 15px #000000);
+    filter: brightness(125%) drop-shadow(15px 15px 15px #000000);
+}
+
+.okreg.bright50:hover {
+    -webkit-filter: brightness(75%) drop-shadow(15px 15px 15px #000000);
+    filter: brightness(75%) drop-shadow(15px 15px 15px #000000);
+}
+svg {
+    fill: none !important;
+}
+.selectedConstituency
+{
+    stroke: black;
+    stroke-width: 20;
+}
+:root {
+    --pis: #31469b;
+    --ko: #fca43f;
+    --lewica: #d44;
+    --td: #8bd32e;
+    --konfederacja: #655;
+    --mn: #aaa
+}
+.pis {
+    fill: #31469b;
+    fill: var(--pis);
+}
+
+.ko {
+    fill: #fca43f;
+    fill: var(--ko);
+}
+
+.lewica {
+    fill: #d44;
+    fill: var(--lewica);
+}
+
+.td {
+    fill: #8bd32e;
+    fill: var(--td);
+}
+
+.konfederacja {
+    fill: #655;
+    fill: var(--konfederacja);
+}
+
+.bright30 {
+    -webkit-filter: brightness(125%);
+    filter: brightness(125%);
+}
+
+.bright50 {
+    -webkit-filter: brightness(75%);
+    filter: brightness(75%);
+}

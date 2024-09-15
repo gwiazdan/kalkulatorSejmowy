@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+    background-color: #ececec;
+}
+.form, .constituency, .summary {
+    -webkit-box-shadow: inset 0 0 10px 1px rgba(66, 68, 90, 1);
+    -moz-box-shadow: inset 0 0 10px 1px rgba(66, 68, 90, 1);
+    box-shadow: inset 0 0 10px 1px rgba(66, 68, 90, 1);
+}
