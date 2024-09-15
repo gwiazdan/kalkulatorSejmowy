@@ -48,7 +48,7 @@ function App() {
         <footer className="bg-gray-600">
             <div className="max-w-screen-xl flex flex-wrap items-center text-white p-4">
                 <p>
-                    © 2024 norbeegsoft. All rights reserved.
+                    © 2024 norbigigakoks. All rights reserved.
                 </p>
             </div>
 
