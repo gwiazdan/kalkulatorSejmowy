@@ -7,8 +7,10 @@ function PartyForm({initialValue, name, onChange}){
 
     const handleChange = (e) => {
         const newValue = e.target.value;
-        setPopularity(newValue);
-        onChange(newValue);
+        if (newValue >= 0) {
+            setPopularity(newValue);
+            onChange(newValue);
+        }
     };
 
     return(
