@@ -9,7 +9,7 @@ function PartyForm({initialValue, name, onChange}){
         const newValue = e.target.value;
         if (newValue >= 0) {
             setPopularity(newValue);
-            //onChange(newValue);
+            onChange(newValue);
         }
     };
 
